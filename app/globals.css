@@ -954,8 +954,8 @@ body {
   }
 
   .work-title {
-    font-size: 18vw;
-    letter-spacing: -3px;
+    font-size: clamp(2rem, 10vw, 4rem);
+    letter-spacing: -2px;
   }
 
   .work-title-wrapper {
@@ -972,11 +972,22 @@ body {
   }
 
   .project-details h3 {
-    font-size: 42px;
+    font-size: 38px;
+  }
+
+  .project-info {
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .project-details {
+    max-width: none;
+    min-width: 0;
   }
 
   .project-details p {
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 1.7;
   }
 }
 /* =================================
