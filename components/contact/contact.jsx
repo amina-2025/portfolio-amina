@@ -45,7 +45,7 @@ export default function Contact() {
           }}
         >
           <span>04</span>
-          <span>CONTACT</span>
+          <span>Contact</span>
         </motion.div>
 
         {/* =================================
@@ -65,11 +65,11 @@ export default function Contact() {
               ease: "easeOut",
             }}
           >
-            LET&apos;S
+            Let&apos;s
             <br />
-            <span>WORK</span>
+            <span>work</span>
             <br />
-            TOGETHER.
+            together.
           </motion.h2>
 
           {/* DESCRIPTION + EMAIL */}

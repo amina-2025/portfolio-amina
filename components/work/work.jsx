@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
   number: "01",
-  title: "SCRIBEACADEMY",
+  title: "ScribeAcademy",
   category: "AI ACADEMIC PLATFORM",
   description:
     "A web platform that uses artificial intelligence to support academic work through academic translation, linguistic correction, and scientific proofreading.",
@@ -19,7 +19,7 @@ const projects = [
 },
   {
     number: "02",
-    title: "ORGANIZ",
+    title: "Organiz",
     category: "WEB APPLICATION",
     description:
       "A private events platform focused on invitation-based event management.",
@@ -98,7 +98,7 @@ export default function Work() {
         <div className="work-top">
           <div className="work-label">
             <span>03</span>
-            <span>MY WORK</span>
+            <span>My work</span>
           </div>
 
            <span className="work-count">SELECTED PROJECTS</span> 
@@ -107,7 +107,7 @@ export default function Work() {
         {/* HUGE MOVING TITLE */}
          <div className="work-title-wrapper">
           <h2 ref={titleRef} className="work-title">
-            SELECTED WORK.
+            Selected work.
           </h2>
         </div>
 

@@ -96,7 +96,7 @@ export default function Hero() {
 
       <div className="hero-text">
         <h1 ref={creativeRef}>CREATIVE</h1>
-        <h2 ref={developerRef}>DEVELOPER</h2>
+        <h2 ref={developerRef}>Developer</h2>
 
         <motion.a
           href="#about"

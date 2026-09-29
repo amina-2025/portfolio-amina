@@ -17,7 +17,7 @@ export default function About() {
           transition={{ duration: 0.7 }}
         >
           <span>01</span>
-          <span>ABOUT ME</span>
+          <span>About Me</span>
         </motion.div>
 
 
@@ -33,9 +33,9 @@ export default function About() {
               ease: "easeOut",
             }}
           >
-            I BUILD DIGITAL
+            I build digital
             <br />
-            <span>EXPERIENCES.</span>
+            <span>experiences.</span>
           </motion.h2>
 
 

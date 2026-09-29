@@ -37,7 +37,7 @@ export default function Hello({ onComplete }) {
   }, []);
 
   return (
-    <section className="hero">
+    <section className="hello-screen">
 
       <svg
         ref={helloRef}

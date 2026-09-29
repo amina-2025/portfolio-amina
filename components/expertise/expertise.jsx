@@ -43,7 +43,7 @@ export default function Expertise() {
           transition={{ duration: 0.7 }}
         >
           <span className="section-number">02</span>
-          <span>EXPERTISE</span>
+          <span>Expertise</span>
         </motion.div>
 
 
@@ -57,9 +57,9 @@ export default function Expertise() {
             ease: "easeOut",
           }}
         >
-          WHAT I
+          What I
           <br />
-          <span>DO.</span>
+          <span>do.</span>
         </motion.h2>
 
 
